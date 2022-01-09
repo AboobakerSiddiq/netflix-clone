@@ -1,0 +1,110 @@
+.profile {
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile_body {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8px;
+  max-width: 800px;
+}
+.profile_info {
+  display: flex;
+}
+.profile_info img {
+  height: 100px;
+}
+.profile_body h1 {
+  font-size: 60px;
+  font-weight: 400;
+  border-bottom: 1px solid #282c2d;
+  margin-bottom: 20px;
+}
+.profile_details {
+  color: white;
+  margin-left: 25px;
+  flex: 1;
+}
+.profile_details h2 {
+  background-color: gray;
+  text-align: center;
+  padding: 15px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+.profile_signout {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 5%;
+  width: 100%;
+  color: #fff;
+  background: #e50914;
+  font-weight: 600px;
+  border: none;
+  cursor: pointer;
+}
+.profile_plan h3 {
+  border-bottom: i px solid #282c2d;
+  padding-bottom: 10px;
+}
+.profile_plan {
+  margin-top: 20px;
+}
+.profile_plan h4 {
+  border-bottom: 1px solid #282c2d;
+  padding-bottom: 10px;
+  font-weight: 300;
+  font-size: 18px;
+  padding-top: 20px;
+}
+.plans {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.plan_flex h3 {
+  font-weight: 600;
+  font-size: 19px;
+}
+.plan_flex h5 {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: -2px;
+}
+.btn_plans {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 5%;
+  width: 100%;
+  color: #fff;
+  background: gray;
+  font-weight: 600px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.btn_plans:hover {
+  background-color: #ec0b16;
+  color: white;
+  border-color: transparent;
+  transition: all 250ms;
+}
+.btn_plans1 {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 5%;
+  width: 100%;
+  color: white;
+  background: #e50914;
+  font-weight: 600px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}

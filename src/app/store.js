@@ -1,10 +1,12 @@
-import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counterSlice'
+import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
+import userReducer from "../features/user/userSlice";
+import { composeWithDevTools } from "redux-devtools-extension";
 
-
-
-export const store = configureStore({
+export default configureStore({
   reducer: {
-    counter:counterReducer
+    user: userReducer,
+  },
+  devTools: {
+    composeWithDevTools,
   },
 });
